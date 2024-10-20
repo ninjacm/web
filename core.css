@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
 	background-color: black;
 	background-image: radial-gradient(
 	rgba(0, 0, 100, 0.75), black 120%
 	);
 	height: 100vh;
-	font-family:"Courier Prime", monospace;
-color:#55aaff;
-text-shadow: 0 0 5px #C8C8C8;
+	font-family: "Courier Prime", monospace;
+	color:#55aaff;
+	text-shadow: 0 0 5px #C8C8C8;
 }
 
 h1 {
