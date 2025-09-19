@@ -31,7 +31,7 @@ h1::after {
 
 a {
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 }
 
 @keyframes header2 {
@@ -146,19 +146,19 @@ p {
 
 .home:hover {
 	display: inline-flex;
-	color: #ffffff;
+	color: #00ffff;
 
 }
 
 .project:hover {
 	display: inline-flex;
-	color: #ffffff;
+	color: #00ffff;
 
 }
 
 .stuff:hover {
 	display: inline-flex;
-	color: #ffffff;
+	color: #00ffff;
 
 }
 
@@ -205,17 +205,4 @@ svg text {
 svg text.text-menu {
 	stroke: #55aaff;
 	color: #464646;
-}
-
-svg text.text-menu:hover {
-	stroke: #ffffff;
-	color: #ffffff;
-	text-shadow: 0 0 5px #C8C8C8;
-}
-
-svg text.text-body {
-	stroke: #55aaff;
-	color: #464646;
-	animation: 2s 1 normal animate-stroke;
-	text-shadow: 0 0 5px #C8C8C8;
 }
